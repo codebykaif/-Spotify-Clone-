@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1DB954;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  width: 250px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  box-shadow: 1px 1px 3px #000;
+  background: black;
+}
+
+.logo i {
+  font-size: 30px;
+}
+
+.logo h2 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.tab {
+  margin-top: 10px;
+  display: flex;
+  margin-left: 70px;
+  }
+
+.tab span {
+  cursor: pointer;
+  color: gray;
+  padding: 5px;
+  flex-direction: row;
+}
+
+input[type="text"],
+input[type="password"] {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  border: none;
+  width: 160px;
+  height: 17px;
+}
+
+.check {
+  text-align: left;
+  font-size: 15px;
+  margin: 10px 0 10px 40px;
+}
+
+button {
+  width: 180px;
+  height: 35px;
+  border-radius: 25px;
+  background-color: #1DB954;
+  color: black;
+  border: none;
+  margin-top: 10px;
+  transition: all .60s ease;
+  transition: transform 0.20s;
+}
+button:hover{
+    background-color: #4ad57a;
+    transform: scale(1);
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+  display: block;
+  margin-top: 10px;
+}
